@@ -18,12 +18,12 @@ pipeline {
             }
         }
     }
-    
+
     post { 
         always { 
             echo 'I will always run whether job is succes or not'
         }
-        succes {
+        success {
             echo 'i will run only the job is success'
         }
         failure {
