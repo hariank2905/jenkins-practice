@@ -8,8 +8,9 @@ pipeline {
                 sh '''
                 ls -ltr
                 pwd
-    
+                
                 '''
+                echo 'This is from the git webhook'
             }
         }
         stage('Test') {
