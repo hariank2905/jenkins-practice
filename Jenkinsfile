@@ -10,7 +10,8 @@ pipeline {
                 pwd
                 
                 '''
-                
+                echo 'This is from the git webhook'
+                echo 'This is from the git webhook git-hub'
                 echo 'Again this is the normal test'
             }
         }
